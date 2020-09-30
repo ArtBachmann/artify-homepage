@@ -3,8 +3,21 @@ import Background from "./Background"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi"
+import BackgroundImage from "gatsby-background-image"
 const Hero = () => {
-  return <h2>hero component</h2>
+  return (
+    <Wrapper>
+      <Background>
+        <article>
+          <h1>Ajankohtaiset kotisivut PK-yrittäjille</h1>
+          <h3>Yksi sisällönhallintajärjestelmä,
+          useita etusivuja. Tiedot ovat
+          käytettävissä automaattisesti monella laitteella samanaikaisesti.!</h3>
+          <Link to='/projects'>Projects</Link>
+        </article>
+      </Background>
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.section`

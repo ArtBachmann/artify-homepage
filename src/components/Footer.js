@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <Wrapper>
       <p>
-        &copy; {new Date().getFullYear()} John Smilga. All rights reserved.
+        &copy; {new Date().getFullYear()} Art Bachmann  All rights reserved.
         Built with Gatsby
       </p>
     </Wrapper>
@@ -14,7 +14,7 @@ const Wrapper = styled.footer`
   height: 5rem;
   display: grid;
   place-items: center;
-  background: var(--clr-black);
+  background: var(--clr-grey-5);
   text-align: center;
   padding: 1rem;
   p {
